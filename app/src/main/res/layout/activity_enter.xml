@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EnterActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通布局包裹fab" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout布局包裹fab" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout布局包裹Toolbar" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout布局包裹NestedScrollView" />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout布局包裹rv" />
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout布局包裹CollapsingToolbarLayout" />
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="综合练习" />
+
+</LinearLayout>
